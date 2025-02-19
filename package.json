@@ -1,0 +1,27 @@
+{
+  "name": "subprocessor-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disownme/subprocessor-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disownme/subprocessor-tracker/issues"
+  },
+  "homepage": "https://github.com/disownme/subprocessor-tracker#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "diff": "^7.0.0",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  }
+}

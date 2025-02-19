@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  web-change-detector:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/webpage_changes.db:/app/backend/webpage_changes.db
